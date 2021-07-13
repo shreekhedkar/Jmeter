@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="67" it="0" lt="60" ct="2" ts="1623499365234" s="true" lb="List Employees" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="497" sby="160" ng="1" na="1">
+  <java.net.URL>http://localhost:8089/employees</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="14" ct="3" ts="1623499370379" s="true" lb="Add Employee" rc="201" rm="" tn="Thread Group 1-1" dt="text" by="203" sby="219" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:8089/employees</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="5" ct="0" ts="1623499370442" s="true" lb="Get Employee" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="203" sby="165" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:8089/employees/5433</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1623499370452" s="true" lb="Delete Employee" rc="200" rm="" tn="Thread Group 1-1" dt="" by="121" sby="187" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:8089/employees/5433</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1623499370459" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="307" sby="0" ng="1" na="1"/>
+<httpSample t="10" it="0" lt="6" ct="1" ts="1623499370461" s="true" lb="List Employees" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="497" sby="160" ng="1" na="1">
+  <java.net.URL>http://localhost:8089/employees</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="9" ct="2" ts="1623499375660" s="true" lb="Add Employee" rc="201" rm="" tn="Thread Group 1-1" dt="text" by="203" sby="219" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:8089/employees</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="8" ct="0" ts="1623499375674" s="true" lb="Get Employee" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="203" sby="165" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:8089/employees/8253</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1623499375686" s="true" lb="Delete Employee" rc="200" rm="" tn="Thread Group 1-1" dt="" by="121" sby="187" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:8089/employees/8253</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1623499375694" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="307" sby="0" ng="1" na="1"/>
+<httpSample t="13" it="0" lt="8" ct="4" ts="1623499375695" s="true" lb="List Employees" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="497" sby="160" ng="1" na="1">
+  <java.net.URL>http://localhost:8089/employees</java.net.URL>
+</httpSample>
+
+</testResults>
